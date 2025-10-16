@@ -1,0 +1,59 @@
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .quote-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  blockquote {
+    font-size: 1.5em;
+    color: #555;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  blockquote::before {
+    content: open-quote;
+    font-size: 2em;
+    vertical-align: -0.4em;
+    color: #aaa;
+  }
+  
+  #author {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
